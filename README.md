@@ -1,8 +1,25 @@
 # 🖱️ Mouseketeer
 
-A small Windows desktop utility that keeps your PC awake by moving the mouse and right-clicking at a set interval, for a set length of time. Use it to stop the screen locking during long downloads, renders or test runs.
+A small Windows desktop utility that keeps your PC awake by moving the mouse and right-clicking at a set interval, for a set length of time. It keeps long-running AI agent sessions, test runs and other unattended work alive on machines where you can't change the sleep and lock settings.
 
 Built with Python, Tkinter, PyAutoGUI and pystray.
+
+## Why Mouseketeer?
+
+### Primary use case: keeping AI agent sessions alive
+
+AI coding agents and other long-running automated sessions often run for tens of minutes or hours with no keyboard or mouse input from the user.
+
+On managed corporate laptops, the IT department usually enforces an idle timeout that locks the screen and puts the device to sleep after a fixed period of inactivity. These settings are centrally managed, so the user can't change them. When the device sleeps, active agent sessions, terminal processes and remote connections are interrupted or ended, and the work in progress is lost.
+
+Mouseketeer simulates regular user activity for a duration you choose, so the system stays awake while the agent finishes its task.
+
+### Other use cases
+
+- **Long-running jobs:** large downloads, video renders, model training and data processing
+- **Unattended test runs:** automated UI or regression suites that need the screen on and unlocked
+- **Remote sessions:** RDP, VPN or Citrix connections that disconnect after a period of inactivity
+- **Presentations and dashboards:** screens that need to stay on without anyone touching them
 
 ## Features
 
@@ -47,4 +64,4 @@ Run it from the repository folder, because the app loads `icon.ico` from the cur
 
 ## Disclaimer
 
-The right-click lands in the middle of your screen, so pause Mouseketeer while you work. Use it responsibly and within your organisation's policies.
+The right-click lands in the middle of your screen, so pause Mouseketeer while you work. Set a run time that matches the task, and don't leave an unlocked device unattended in a shared or public space. You are responsible for making sure your use complies with your organisation's policies.
