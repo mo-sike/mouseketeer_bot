@@ -41,8 +41,8 @@ Each cycle, Mouseketeer:
 
 ### Option 1: Executable (Windows)
 
-1. Download [`mouseketeer_bot.zip`](mouseketeer_bot.zip) and extract it.
-2. Run the executable inside.
+1. Download [`mouseketeer_bot.zip`](https://github.com/mo-sike/mouseketeer_bot/releases/latest/download/mouseketeer_bot.zip) from the [latest release](https://github.com/mo-sike/mouseketeer_bot/releases/latest) and extract it.
+2. Run `mouseketeer_bot.exe`.
 
 ### Option 2: From source
 
